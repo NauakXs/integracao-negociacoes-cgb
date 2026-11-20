@@ -33,3 +33,7 @@ Decisão adotada: **Monólito Modular**.
 | **Complexidade Técnica, Manutenção e Evolução** | Baixa/Média: base de código coesa, deploy único e transações ACID nativas no PostgreSQL; adequada a equipe enxuta (2 desenvolvedores). | Alta: exige transações distribuídas (Saga), descoberta de serviços e rastreamento distribuído; sobrecarga incompatível com a equipe local de Altamira. |
 | **Segurança e LGPD** | Centralizada: autenticação JWT única, RBAC coeso e tabela centralizada de logs de auditoria. | Descentralizada: múltiplas superfícies de ataque internas exigindo mTLS e API Gateway robusto. |
 | **Adequação ao Porte** | Adequada à volumetria administrativa regional sem overengineering. | Desproporcional ao volume de transações diárias da operação local. |
+
+![alt text](MODELO_DE_DOMINIO.png)
+![alt text](DIAGRAMA_DE_CONTEXTO_NIVEL1.png)
+![alt text](DIAGRAMA_DE_CONTAINERS_NIVEL2.png)
