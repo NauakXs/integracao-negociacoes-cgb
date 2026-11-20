@@ -102,3 +102,7 @@ O sistema contempla os casos de uso principais **UC01 a UC05**, apoiados por cas
 * **Exceções:**
   * **EX01 — Período sem movimentação:** sistema exibe aviso informativo de ausência de registros para o filtro selecionado.
 * **Pós-condições:** relatório gerencial exibido/exportado sem alteração na integridade dos dados transacionais.
+
+![alt text](BPMN_AS_IS_Grupo_CGB.png)
+![alt text](BPMN_TO_BE_Grupo_CGB.png)
+![alt text](Diagrama_Caso_de_Uso_CBG_Energia.png)
